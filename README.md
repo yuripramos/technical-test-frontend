@@ -8,7 +8,7 @@ For this test, you are given the task of developing a feature for one of our pro
 - Allow the user to select a service.
 - The user must select one service before the rest of the form is shown.
 - Depending on the service selected, show a custom form to the user so they can enter their details.
-- When the user submits the form, log the field values to the console (this should also include the select service value).
+- When the user submits the form, log the field values to the console (this should also include the selected service value).
 - After the form has been submitted, reset the form so that the user can make a new appointment request.
 
 Here is the *tricky part*. Depending on the service selected, different input and labels will need to be shown in the form.
