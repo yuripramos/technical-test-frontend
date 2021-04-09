@@ -3,6 +3,8 @@
 For this test, you are given the task of developing a feature for one of our products.
 
 ## Task: Appointment Form
+Below is an example of the appointment form, it does not have to look like this:
+![](https://user-images.githubusercontent.com/31007761/114183240-761c6c00-9911-11eb-8b9a-fc7b3b8ca04b.png)
 
 #### Feature requirements:
 - Allow the user to select a service.
