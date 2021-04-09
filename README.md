@@ -49,3 +49,75 @@ The app will run on http://localhost:3000 and any changes in your code will be r
 Styles: in styles.scss
 Entry point: pages/index.js
 Syntax: ES6
+
+
+---------------------------------------
+
+## Part 2 - Questions
+
+#### Q1: What is the result?
+`true + false > 2 + true`
+
+1) `true`
+2) `false`
+3) `TypeError`
+4) `NaN`
+
+#### Q2: What is the result?
+`"1" - -"1"`
+1) `0`
+2) `2`
+3) `11`
+4) `"11"`
+
+#### Q3: What is the result?
+`new array(5).toString()`
+1) `",,,,"`
+2) `[]`
+3) `"[]"`
+
+#### Q4: What is printed in the console?
+```
+  var arr = ["foo", "bar"]
+  arr.length = 0;
+  arr.push("bin")
+  console.log(arr)
+```
+1) `['foo', 'bar']`
+2) `['foo', 'bar', 'bin']`
+3) `['bin', 'foo', 'bar']`
+4) `['bin']`
+
+#### Q5: What is the result?
+`10 > 9 > 8 === true` 
+1) `true`
+2) `false`
+
+#### Q6: What is logged to the console?
+```
+function bar() {
+ return foo;
+ foo = 10;
+ function foo() {}
+ var foo = ‘11’;
+}
+console.log(typeof bar());
+``` 
+1) `number`
+2) `function`
+3) `undefined`
+4) `string`
+5) `Error`
+
+---------
+
+### React & Redux Questions
+
+#### Q1: What is the difference between state and props?
+#### Q2: What is the point of using `keys` in React?
+#### Q3: What's the difference between a controlled component and an uncontrolled one in React?
+#### Q4: What would be a good lifecycle method/hook to fetch data from an API for a component?
+
+#### Q5: How is `state` updated in an application using Redux?
+#### Q6: How can we handle async logic in Redux (for example making a call to fetch data)?
+#### Q7: What are reducers in Redux?
